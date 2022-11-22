@@ -1,9 +1,7 @@
 # Sobre o projeto
 
-
-
 * Teste técnico realizado para vaga de desenvolvedor na NG_cash 
-* Projeto Full Stack
+* Front end
 
 ##  Frontend Techs Utilizadas
 * React.js
@@ -11,21 +9,6 @@
 * Ant.design
 * CSS BEM
 * HTML
-
-
-##  Backend Techs Utilizadas
-* Backend do projeto => link:  https://github.com/MatheuspFerreira/backend_ngcash
-* AWS (RDS com postgres)
-* PostgreSql
-* TypeScript
-* Nodemon
-* Bcrypt
-* JWSToken
-* Sequelize
-* PG
-* Express
-* Node.js
-* Docker
 
 # Instruções para rodar o projeto - Frontend
 
