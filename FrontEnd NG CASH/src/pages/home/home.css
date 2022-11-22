@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+
+}
+
+.Home__container {
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(to right,black,rgb(33, 32, 32) , rgb(100, 99, 99));
+    background: -webkit-linear-gradient(to right,black,rgb(33, 32, 32) , rgb(100, 99, 99)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right,black,rgb(33, 32, 32) , rgb(100, 99, 99)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right,black,rgb(33, 32, 32) , rgb(100, 99, 99)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,black,rgb(33, 32, 32) , rgb(100, 99, 99)); /* Standard syntax */
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Home__header {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    gap: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Home__headerContent  {
+    width: 80%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 90px;
+    margin-left: 15%;
+
+}
+
+.Home__options {
+    width: 20%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 70px;
+    margin-right: 5%;
+
+}
+
+.Home__logo {
+    width: 13%; 
+
+}
+
+.Home__header h1 , h2 {
+    color: white;
+
+}
+
+.Home__bntLogOut {
+    font-size: 26px !important;
+    color: white !important;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+.Home__bntLogOut:hover {
+    background-color: rgb(133, 132, 132);
+    border-radius: 30px;
+    
+}
+
+.Home__content {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Home__content h2 {
+    color: white;
+    margin: 10px 0;
+    font-size: 28px;
+    
+}
+
+.Home__firstContent {
+    width: 30%;
+    position: relative;
+    right: 20%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+
+}
+
+.Home__saldo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.Home__saldo p {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 5px;
+
+}
+
+.Home__saldoInput {
+    width: 32% !important;
+    height: 35px !important;
+    border-radius: 20px !important;
+    font-size: 12px !important;
+    
+}
+
+#Home__search  {
+    width: 270px !important;
+    height: 34px !important;
+
+}
+
+.ant-input-search-button {
+    width: 40px !important;
+    height: 40px !important;
+
+}
+
+.ant-input-group-wrapper {
+    width: 10% !important;
+  
+}
+
+.Home__secondContent {
+    width: 60%;
+    background-color: white;
+    height: 100%;
+    min-height: 0px;
+    margin: 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.31); 
+    box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.31); 
+    
+}
+
+.Home__bg {
+    width: 99%;
+    background-color: white;
+    height:92%;
+    margin: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+  
+}
+
+.Home__transações {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    overflow-y: scroll;
+
+}
+
+.Home__secondContent ul {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.Home__secondContent li {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.Home__filter {
+    width: 98%;
+    min-width: 155px;
+    height: 65px;
+    margin-left: 1%;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 31%);
+    padding: 10px;
+
+}
+
+.Home__filter h3 {
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.Home__filter label {
+    margin: 10px 20px;
+    font-weight: bold;
+    
+}
+
+.--Disable {
+    display: none;
+}
+
+@media screen and (max-width:1344px) {
+
+    .Home__headerContent h1{
+        font-size: 20px;
+
+    }
+
+    .Home__bntLogOut {
+        font-size: 20px !important;
+       
+    }
+
+    .Home__logo {
+        width: 13%;
+        min-width: 80px;
+    
+    }
+
+    .Home__content h2{
+        font-size: 22px;
+        margin: 15px 0;
+        
+    }
+
+    .Home__saldo p {
+        font-size: 18px;
+
+    }
+
+    .Home__saldoInput {
+        min-width: 130px !important;
+        font-size: 12px !important;
+
+    }
+    
+}
+
+/*MOBILE VERSION */
+
+@media screen and (max-width:920px) {
+    .Home__header{
+        margin-bottom: 30px;
+
+    }
+
+    .Home__headerContent {
+        margin-left: 7%;
+
+    }
+
+    .Home__headerContent h1{
+        font-size: 18px;
+
+    }
+
+    .Home__bntLogOut {
+        font-size: 18px !important;
+        
+    }
+
+    .Home__logo {
+        width: 13%;
+        min-width: 80px;
+    
+    }
+
+    .Home__firstContent {
+        right: 30%;
+
+    }
+
+    .Home__secondContent {
+        width: 90%;
+        min-width: 350px
+
+    }
+
+    .Home__secondContent li {
+        font-size: 13px;
+
+    }
+
+    .Home__options {
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+
+    .Home__filter {
+        height: 95px;
+        padding: 10px;
+
+    }
+    .Home__filter label {
+        margin: 5px 20px;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+     
+}
+
+@media screen and (max-width:610px) {
+
+    .Home__headerContent {
+       gap: 30px;
+
+    }
+
+    .Home__headerContent h1 {
+        width: 100%;
+        font-size: 13px;
+
+    }
+
+    .Home__bntLogOut {
+        font-size: 16px !important;
+
+    }
+
+    .Home__logo {
+        width: 13%;
+        min-width: 60px;
+    
+    }
+
+    .Home__options {
+        gap: 40px;
+         
+    }
+
+    .Home__firstContent {
+        margin-top: 20%;
+
+    }
+
+    #Home__search  {
+        width: 205px !important;
+        height: 34px !important;
+        font-size: 10.7px;
+        
+    }
+
+    .Home__filter {
+        height: 95px;
+        padding: 10px;
+
+    }
+
+    .Home__filter label {
+        margin: 5px 10px;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .Home__filter h3 {
+        margin: 0;
+        font-weight: bold;
+        font-size: 14px;
+    
+    }
+
+    .Home__secondContent ul{
+        gap: 10px;
+
+    }
+
+    .Home__secondContent li  {
+        font-size: 11.5px;
+
+    }
+
+}
+
+@media screen and (max-width:410px) {
+
+    #Home__search  {
+        width: 172px !important;
+        height: 32px !important;
+        font-size: 9px;
+        
+    }
+
+    .Home__content h2{
+        font-size: 19px;
+
+    }
+    
+    .Home__saldo p {
+        font-size: 16px;
+
+    }
+
+    .Home__inputData {
+        width: 100px;
+        height: 23px;
+        font-size: 12px;
+
+    }
+
+   .Home__inputOptions{
+        width: 100px;
+        height: 23px;
+        font-size: 12px;
+
+    }
+
+    .Home__secondContent{
+        min-width: 96%;
+
+    }
+
+    .Home__secondContent li  {
+        width: 100%;
+        font-size: 9px;
+        text-align: center;
+
+    }
+
+
+    .Home__filter {
+        height: 95px;
+        padding: 10px;
+
+    }
+
+    .Home__filter label {
+        margin: 5px 20px;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .Home__filter h3 {
+        margin: 0;
+        font-weight: bold;
+        font-size: 13px;
+    
+    }
+    
+    .Home__filter label {
+        margin: 10px 20px;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+}
+

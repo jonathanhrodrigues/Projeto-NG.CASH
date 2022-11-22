@@ -1,0 +1,9 @@
+.Feedback__container {
+    width: 100%;
+}
+
+.Feedback__icon{
+    font-size: 60px;
+    color: green;
+    margin-bottom: 10px;
+}
